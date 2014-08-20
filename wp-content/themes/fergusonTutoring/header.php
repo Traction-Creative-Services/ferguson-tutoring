@@ -32,24 +32,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <?php
-         $args = array(
-			'sort_order' => 'ASC',
-			'sort_column' => 'post_title',
-			'hierarchical' => 1,
-			'exclude' => '',
-			'include' => '',
-			'meta_key' => '',
-			'meta_value' => '',
-			'authors' => '',
-			'child_of' => 0,
-			'parent' => -1,
-			'exclude_tree' => '',
-			'number' => '',
-			'offset' => 0,
-			'post_type' => 'page',
-			'post_status' => 'publish'
-		); 
-		$pages = get_pages($args);
+		$pages = wp_list_pages();
 		foreach($pages as $page) {
 			var_dump($page);
 		}
