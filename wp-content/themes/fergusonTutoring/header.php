@@ -31,9 +31,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <?php
-		wp_list_pages(array('title_li' => '', 'depth' => 1));
-        ?>
+		<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
