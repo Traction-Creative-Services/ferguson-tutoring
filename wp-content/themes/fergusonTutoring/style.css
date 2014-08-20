@@ -1,0 +1,15 @@
+/*
+Theme Name: Ferguson Tutoring
+Theme URI: http://martinsheeks.com;
+Author: Martin Sheeks
+Author URI: http://martinsheeks.com/
+Description: The custom WP theme for Ferguson Tutoring
+Version: 1.0
+License: S3 Standard License All Rights Reserved
+Text Domain: fergusonTutoring
+*/
+
+body {
+	margin:0;
+	padding:0;
+}
