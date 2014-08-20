@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <?php
-		wp_list_pages(array('title_li' => ''));
+		wp_list_pages(array('title_li' => '', 'depth' => 1));
         ?>
       </ul>
     </div><!-- /.navbar-collapse -->
