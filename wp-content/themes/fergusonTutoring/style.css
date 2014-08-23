@@ -12,6 +12,7 @@ Text Domain: fergusonTutoring
 body {
 	margin:0;
 	padding:0;
+	padding-top:110px;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
