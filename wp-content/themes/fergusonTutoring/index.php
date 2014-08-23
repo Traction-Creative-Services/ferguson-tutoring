@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-7 col-offset-md-2">
+			<div class="col-md-5 col-md-offset-2" id="header-text">
 				<h1>FERGUSON TUTORING</h1>
 				<h2>Educating the Twin Cities Area</h2>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-5">
 				<!-- PHP for news headlines -->
 			</div>
 		</div>
