@@ -57,7 +57,7 @@
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner">
-			<?php query_posts( array( 'post_status' => 'publish' , 'post_type' => array( 'testimonial' )  ) ); 
+			<?php query_posts( array( 'post_status' => 'publish' , 'post_type' => 'testimonial' ) ); 
 			while ( have_posts() ) : the_post();
 			?>
                                    <div class="item">
