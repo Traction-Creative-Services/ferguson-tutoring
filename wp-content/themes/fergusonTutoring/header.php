@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Ferguson Tutoring</a>
+      <a class="navbar-brand" href="#"><img alt="Ferguson Tutoring" src="<?php echo get_theme_root(); ?>/assets/img/logo.gif"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
