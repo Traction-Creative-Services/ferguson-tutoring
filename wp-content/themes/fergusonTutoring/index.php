@@ -58,7 +58,9 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner">
 		  >
-			<?php query_posts( array( 'post_status' => 'publish' , 'post_type' => array( 'testimonial' )  ) ); ?>
+			<?php query_posts( array( 'post_status' => 'publish' , 'post_type' => array( 'testimonial' )  ) ); 
+			while ( have_posts() ) : the_post();
+			?>
                                    <div class="item">
                                    <?php echo the_title(); ?>
                                    "<?php echo the_content(); ?>"
