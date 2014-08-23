@@ -53,33 +53,35 @@
 	</div>
 	<div class="container">
 		<div class="row" id="testimonials-bar">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
 
-		<div id="carousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-		        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-		        <li data-target="#carousel" data-slide-to="1"></li>
-		        <li data-target="#carousel" data-slide-to="2"></li>
-		    </ol>
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner">
-			<?php query_posts( array( 'post_status' => 'publish' , 'post_type' => 'testimonial' ) ); 
-			while ( have_posts() ) : the_post();
-			?>
-                                   <div class="item">
-                                   <?php echo the_title(); ?>
-                                   "<?php echo the_content(); ?>"
-                                   </div>
-            <?php endwhile; ?>
-            <?php wp_reset_query(); ?>
-          </div>
-          <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-		</div>
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <?php query_posts( array( 'post_status' => 'publish' , 'post_type' => 'testimonial' ) ); 
+				while ( have_posts() ) : the_post();
+				?>
+	                                   <div class="item">
+	                                   <?php echo the_title(); ?>
+	                                   "<?php echo the_content(); ?>"
+	                                   </div>
+	            <?php endwhile; ?>
+	            <?php wp_reset_query(); ?>
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
 		</div>
 	</div>
 <?php get_footer(); ?>
