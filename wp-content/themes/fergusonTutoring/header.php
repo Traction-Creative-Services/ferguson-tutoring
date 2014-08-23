@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="<?php echo get_Template_directory_uri(); ?>/style.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/mef2csx.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
 <div class="container">
