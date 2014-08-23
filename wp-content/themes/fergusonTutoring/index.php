@@ -9,7 +9,7 @@
 				<!-- PHP for news headlines -->
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" id="features">
 			<div class="col-md-4">
 				<img class="home-feature-img" alt="Mathematics" src="<?php echo get_template_directory_uri(); ?>/assets/img/maths.jpg">
 				<h3>MATHEMATICS</h3>
