@@ -10,7 +10,7 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="<?php echo get_Template_directory_uri(); ?>style.css">
+  <link rel="stylesheet" href="<?php echo get_Template_directory_uri(); ?>/style.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
