@@ -57,8 +57,7 @@
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner">
-		  >
-			<?php query_posts( array( 'post_status' => 'publish' , 'post_type' => array( 'testimonial' )  ) ); 
+			<?php query_posts( array( 'post_status' => 'publish' , 'post_type' => array( 'testimonials' )  ) ); 
 			while ( have_posts() ) : the_post();
 			?>
                                    <div class="item">
@@ -68,7 +67,7 @@
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
           </div>
-		</div
+		</div>
 		</div>
 	</div>
 <?php get_footer(); ?>
