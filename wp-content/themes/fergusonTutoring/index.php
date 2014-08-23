@@ -53,7 +53,20 @@
 	</div>
 	<div class="container">
 		<div class="row" id="testimonials-bar">
-			<!-- testimonials code -->
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		  >
+			<?php query_posts( array( 'post_status' => 'publish' , 'post_type' => array( 'testimonial' )  ) ); ?>
+                                   <div class="item">
+                                   <?php echo the_title(); ?>
+                                   "<?php echo the_content(); ?>"
+                                   </div>
+            <?php endwhile; ?>
+            <?php wp_reset_query(); ?>
+          </div>
+		</div
 		</div>
 	</div>
 <?php get_footer(); ?>
