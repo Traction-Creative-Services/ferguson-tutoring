@@ -51,19 +51,21 @@
 			</div>
 		</div>
 	</div>
+	<div  id="testimonials-bar">
 	<div class="container">
-		<div class="row" id="testimonials-bar">
+		<div class="row">
 		  <!-- Wrapper for slides -->
 		  <div id="owl-example" class="owl-carousel">
 		    <?php query_posts( array( 'post_status' => 'publish' , 'post_type' => 'testimonial' ) ); 
 			while ( have_posts() ) : the_post();
 			?>
                <div>
-               <?php echo the_title(); ?>
-               "<?php echo the_content(); ?>"
+               <h3><?php echo the_title(); ?></h3>
+               <p>"<?php echo the_content(); ?>"</p>
                </div>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
 		  </div>
+	</div>
 	</div>
 <?php get_footer(); ?>

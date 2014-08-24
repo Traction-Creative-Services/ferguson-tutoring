@@ -20,8 +20,9 @@
      
       $("#owl-example").owlCarousel({
         singleItem:true,
-        autoPlay:true,
-        stopOnHover:true
+        autoPlay:15000,
+        stopOnHover:true,
+        navigation:true
       });
      
     });
