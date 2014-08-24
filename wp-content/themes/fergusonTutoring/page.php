@@ -17,11 +17,11 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
+		<div class="row" id="main-content">
+			<div class="col-md-8" id="main">
 				<?php the_content(); ?>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" id="sidebar">
 				<?php the_field('sidebar'); ?>
 			</div>
 		</div>
