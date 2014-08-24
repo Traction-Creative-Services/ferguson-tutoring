@@ -101,7 +101,7 @@ body {
 	width:100%;
 }
 
-.quoter:nth-child(odd) {
+.quoter:nth-child(even) {
 	text-align:right;
 }
 
