@@ -101,7 +101,7 @@ body {
 	width:100%;
 }
 
-.quoter:last-of-type {
+.quoter:nth-child(odd) {
 	text-align:right;
 }
 
