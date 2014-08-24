@@ -36,7 +36,7 @@ body {
 }
 
 .navbar-fixed-top {
-	top:30px;
+	border-top:30px solid #FFF;
 }
 
 .navbar-brand img {
