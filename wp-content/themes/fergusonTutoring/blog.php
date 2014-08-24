@@ -10,7 +10,6 @@ get_header(); ?>
 		</div>
 	</div>
 	<div class="container">
-	<?php while ( have_posts() ) : the_post(); ?>
 		<div class="row" id="main-content">
 			<div class="col-md-8" id="main">
 				<?php if (have_posts()) : ?>
@@ -44,6 +43,5 @@ get_header(); ?>
 				<?php endif; ?>
 			</div>
 		</div>
-	<?php endwhile; // end of the loop. ?>
 	</div>
 <?php get_footer(); ?>
