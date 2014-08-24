@@ -19,7 +19,9 @@
     $(document).ready(function() {
      
       $("#owl-example").owlCarousel({
-        singleItem:true
+        singleItem:true,
+        autoPlay:true,
+        stopOnHover:true
       });
      
     });

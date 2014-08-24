@@ -81,5 +81,7 @@ body {
 #testimonials-bar {
 	background:#2A9A48;
 	color:#FFF;
-	font-size:3em;
+	font-size:1em;
+	padding:1em 2em;
+	max-height:400px;
 }
