@@ -98,6 +98,11 @@ body {
 	font-size:2em;
 	clear:both;
 	font-style:italic;
+	width:100%;
+}
+
+.quoter:last-of-type {
+	text-align:right;
 }
 
 .owl-buttons {
