@@ -94,6 +94,12 @@ body {
 	font-size:1.5em;
 }
 
+.quoter {
+	font-size:2em;
+	clear:both;
+	font-style:italic;
+}
+
 .owl-buttons {
 	text-align:center;
 }

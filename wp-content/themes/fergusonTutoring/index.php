@@ -61,7 +61,7 @@
 			?>
                <div>
                <h3><?php echo the_title(); ?></h3>
-               <p>"<?php echo the_content(); ?>"</p>
+               <span class="quoter">"</span><?php echo the_content(); ?><span class="quoter">"</span>
                </div>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
