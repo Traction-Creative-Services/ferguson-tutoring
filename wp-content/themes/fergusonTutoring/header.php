@@ -18,7 +18,9 @@
   <script>
     $(document).ready(function() {
      
-      $("#owl-example").owlCarousel();
+      $("#owl-example").owlCarousel({
+        singleItem:true
+      });
      
     });
   </script>
