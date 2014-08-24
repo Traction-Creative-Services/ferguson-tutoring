@@ -63,7 +63,7 @@
                <h3><?php echo the_title(); ?></h3>
                <div class="quoter">"</div>
                	<?php echo the_content(); ?>
-               <div class="quoter">"</div>
+               <div class="quoter right">"</div>
                </div>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
