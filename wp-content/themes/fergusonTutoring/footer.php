@@ -1,6 +1,7 @@
 <div  id="testimonials-bar">
 	<div class="container">
 		<div class="row">
+			<div class="col-md-12">
 		  <!-- Wrapper for slides -->
 		  <div id="owl-example" class="owl-carousel">
 		    <?php query_posts( array( 'post_status' => 'publish' , 'post_type' => 'testimonial' ) ); 
@@ -14,6 +15,7 @@
                </div>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
+		  </div>
 		  </div>
 		</div>
 	</div>

@@ -12,7 +12,7 @@ Text Domain: fergusonTutoring
 body {
 	margin:0;
 	padding:0;
-	padding-top:50px;
+	padding-top:90px;
 	font-size:1.3em;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
@@ -20,6 +20,11 @@ body {
 
 p {
 	font-size:1.5em;
+	color:#111;
+}
+
+ul li {
+	font-size:1.2em;
 	color:#111;
 }
 
@@ -47,7 +52,7 @@ p {
 
 .navbar-brand img {
 	position:relative;
-	top:-40px;
+	top:-15px;
 }
 
 .navbar-inverse {
@@ -86,7 +91,7 @@ p {
 }
 
 #testimonials-bar {
-	background:#2A9A48;
+	background:#2F9A41;
 	color:#FFF;
 	padding:1em;
 	max-height:400px;
@@ -102,18 +107,20 @@ p {
 
 #testimonials-bar p {
 	line-height:1.1em;
-	font-size:1.5em;
+	font-size:1.3em;
 }
 
 .quoter {
-	font-size:2em;
+	font-size:4em;
 	clear:both;
 	font-style:italic;
 	width:100%;
+	line-height:0.5em;
 }
 
 .right {
 	text-align:right;
+	padding-right:2px;
 }
 
 .owl-buttons {
@@ -121,18 +128,18 @@ p {
 }
 
 .owl-prev, .owl-next {
-	width:60px;
-	height:60px;
+	width:50px;
+	height:50px;
 	display:inline-block;
 	background:#231C34;
 	padding:5px;
-	padding-top:15px;
-	border-radius:60px;
-	-o-border-radius:60px;
-	-moz-border-radius:60px;
-	-webkit-border-radius:60px;
+	padding-top:12px;
+	border-radius:50px;
+	-o-border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
 	margin:1em 15px;
-	font-size:1.5em;
+	font-size:1.3em;
 }
 
 
@@ -150,4 +157,33 @@ p {
 #sidebar {
 	background:#E9F8EE;
 	min-height:500px;
+}
+
+#inner-top-side {
+}
+
+.container {
+	max-width:1000px;
+}
+
+@media (max-width:990px){ 
+
+	.navbar-brand img {
+		height:50px;
+	}
+
+	#sidebar {
+		top:0;
+		padding-top:0;
+		min-height:0;
+	}
+
+	#header-text h1, #header-text h2 {
+		line-height:1;
+	}
+
+	#testimonials-bar {
+		max-height:100000px;
+	}
+
 }

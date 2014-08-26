@@ -7,11 +7,11 @@ get_header(); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5 col-md-offset-2" id="header-text">
+			<div class="col-md-6 col-md-offset-2" id="header-text">
 				<h1>FERGUSON TUTORING</h1>
 				<h2>Educating the Twin Cities Area</h2>
 			</div>
-			<div class="col-md-5">
+			<div class="col-md-4" id="inner-top-side">
 				<!-- PHP for news headlines -->
 			</div>
 		</div>

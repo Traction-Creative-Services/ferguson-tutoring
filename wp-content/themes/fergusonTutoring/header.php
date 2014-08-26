@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<?php wp_head(); ?>
+	<title>Ferguson Tutoring</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +47,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => '', 'menu_class' => 'nav navbar-nav' ) ); ?>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="tel:6125201446">(612) 520-1446</a></li>
+      <li><a href="tel:6125201446">ph. (612) 520-1446</a></li>
     </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

@@ -40,10 +40,10 @@
 					<img class="home-feature-img" alt="Test Preperation" src="<?php echo get_template_directory_uri(); ?>/assets/img/college.jpg">
 					<h3>TEST PREP</h3>
 					<ul>
+						<li>PSAT</li>
 						<li>ACT</li>
 						<li>SAT</li>
-						<li>Advanced Placement (AP)</li>
-						<li>International Baccalaureate (IB)</li>
+						<li>GRAD</li>
 						<li>GRE</li>
 						<li>GMAT</li>
 					</ul>
